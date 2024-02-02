@@ -6,7 +6,7 @@
     <Sidebar/>
     <main class="fade-in flex-1 flex-col text-center">
         <div class="justify-center">
-            <img class="w-full mx-auto" src="/images/graduation.jpg" alt="My Graduation">
+            <img class="h-[70vh] w-full object-cover mx-auto" src="/images/graduation.jpg" alt="My Graduation">
             <h1 class="px-6 py-4 text-5xl text-gray-400 font-bold text-left">About me</h1>
             <p class="px-6 pt-4 text-gray-800 font-semibold text-left">The picture above is me! I graduated from UEA with a First Class Masters of Computing (MComp), this means I learnt how to build funny websites like this. I spent a glorious 5 years due to taking a foundation year as well, and had the opportunity to mature and develop my understanding of such a fascinating and broad field.</p>
             <p class="px-6 pt-4 text-gray-800 font-semibold text-left">I have since developed a great interest in machine learning, data science, artificial intelligence, bioinformatics and cyber security to name a few. A friend and I read a lot of machine learning papers during my Masters year whilst ChatGPT was taking the world by storm, and we both loved seeing the transformer and LLM revolution unfold.</p>
