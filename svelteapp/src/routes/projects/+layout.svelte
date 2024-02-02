@@ -15,7 +15,21 @@
 </div>
 
 <style lang="postcss">
-    :global(html){
-        background: theme(colors.white);
+    @keyframes fade-in{
+        0% {
+            opacity: 0;
+            transform: translateY(20%);
+            /* transform: translateX(0); */
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+            /* transform: translateX(0); */
+        }
+    }
+
+    .fade-in{
+        animation-name: fade-in;
+        animation-duration: 1s;
     }
 </style>
